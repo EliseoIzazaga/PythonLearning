@@ -68,3 +68,12 @@ print(sys.float_info.max)
 f1 = 1.111111111111111
 f2 = f1
 print(f1 + f2)
+
+
+# next to learn is logic and control flow
+# of lists and other other logic control items, 
+# ultimately we are going to program the rpi
+# to a robot, good practice is to complete planter
+# comm and give to friends, accomplish the same with
+# rpi in python since the hardware is the same. 
+

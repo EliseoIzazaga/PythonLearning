@@ -77,3 +77,79 @@ print(f1 + f2)
 # comm and give to friends, accomplish the same with
 # rpi in python since the hardware is the same. 
 
+#we will declare cariable and do and if then an else
+
+aVariable = 30 
+if aVariable < 100:
+    print(aVariable)
+elif aVariable > 100:
+    print(aVariable)
+else:
+    print("default case")
+
+#This is the lists part
+#lists hold changeable pieces of data, they do not all have to be the same
+
+l1 = [1, 2.1, "String", False]
+
+if len(l1) < 10:
+    print(len(l1))
+    print(l1)
+else:
+    print(l1)
+
+#changing things in list
+
+l1[0] = "A different value"
+print(l1)
+l1[2:4] = [5, "we changed 4"]
+print(l1)
+ #the list also has a pop function
+
+l1.pop(0) #the parameter inside pop will remove the element in that place
+
+
+#this is the loops part
+countingVariable = 1 
+while countingVariable < 10:
+    print(countingVariable)
+    countingVariable += 1
+
+leCounter = 0
+while leCounter < 20:
+    if leCounter < 10:
+        print(leCounter)
+        leCounter += 1
+    elif leCounter > 15:
+        print(leCounter)
+        leCounter += 3
+    else:
+        print(leCounter)
+        leCounter += 5
+
+#this is the for loop
+
+for x in range(0, 20):
+   print(x)
+
+#below does not work as intended, x is a variable, while x is between 0 and 10
+#in ascending order the, it will only cycle because of the range() function,
+#nothing is able to overide it.     
+y = 0
+for y in range(y,20):
+    y += 5
+    print(y)
+ 
+
+ #will print the elements in the list
+for x in[2,5,7,6]:
+     print(x)
+
+#tuples are like list but they do not change
+#syntax is as follows
+tupleUno = (1, 3, "HEllO", "Based", 3.21)
+
+for x in tupleUno:
+    print(x)
+
+
